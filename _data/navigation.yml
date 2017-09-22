@@ -12,9 +12,12 @@
 
 - title: Resume
   url: /assets/docs/resume.pdf
+  
+#- title: GITHUB
+#  url: https://github.com/parthw1
 
-- title: Contact
-  url: /contact/
+#- title: Contact
+#  url: /contact/
   
 #- title: Search
 #  url: /search/

@@ -5,8 +5,11 @@ excerpt: "Contact me."
 search_omit: true
 ---
 
-<ul class="post-list">
-{% for post in site.categories.blog %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
+Contact Details
+
+Parth Wazurkar<br>
+IIIT Nagpur Boys Hostel,<br>
+BSNL RTTC, Seminary Hills,<br>
+Nagpur(MH)-440006<br>
+(+91)9552283766<br>
+(+91)8668509601

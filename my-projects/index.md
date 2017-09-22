@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-excerpt: "Contact me."
+title: My Projects
+excerpt: "My projects."
 search_omit: true
 ---
 
