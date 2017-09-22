@@ -3,6 +3,7 @@ layout: post
 title: "Hello World"
 modified:
 categories: blog
+comments: true
 excerpt:
 tags: []
 image:

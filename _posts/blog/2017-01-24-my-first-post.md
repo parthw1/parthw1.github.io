@@ -3,6 +3,7 @@ layout: post
 title: "My First Post"
 modified:
 categories: blog
+comments: true
 excerpt:
 tags: []
 image:
