@@ -13,7 +13,7 @@ modified: 2017-10-14T14:17:05-04:00
 ---
 
 GSOC or Goole Summer Of Code one of the most prestigious opportunity to get involved into open source sofware development and also get a paid internship ;)<br>
-People usually wait till their sophomre year to participate into GSOC but one should atleast try to participate and give it a try if you know the basics of programming which one learns in his/her freshman year itself as it would help in getting acquainted with open source and an opportunity to learn a lot of new things.
+People usually wait till their sophomre year to participate into GSOC, but I think that one should atleast try to participate and give it a try if you know the basics of programming which one learns in his/her freshman year itself as it would help in getting acquainted with open source and an opportunity to learn a lot of new things.
 
 **Step 1:** What I would suggest to go and check the list of orgs selected this year <a href ="https://summerofcode.withgoogle.com/organizations/">here</a> , read the details about all orgs and find the one whose idea attracts you. If you are getting confused about selecting org then just shortlist your most preferred orgs.
 
@@ -29,5 +29,5 @@ People usually wait till their sophomre year to participate into GSOC but one sh
 
 **Step 7:**Now you are familiar with the working of open source. Start working on an idea for the development of org with the developers and come up with a nice proposal, get it reviewed from your mentors and submit it.
 
-**Step 8**Get selected for GSOC….!!!
+**Step 8:**Get selected for GSOC….!!!
 
