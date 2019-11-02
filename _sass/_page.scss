@@ -36,6 +36,7 @@
 
 .entry-header {
 	@include fill-parent;
+ text-align: center;
 }
 
 /* tag listing in page header */
@@ -80,10 +81,13 @@ span + .entry-title {
 }
 
 .entry-title {
-	font-family: $alt-font;
+	/*font-family: $alt-font;*/
+	font: 0.9em/1.692307em 'Bitter', Georgia, 'Times New Roman', Times, serif;
+	/*text-transform: uppercase;*/
 	/*font-style:italic;*/
-	@include font-size(36,yes,36);
-	font-weight: 400;
+	text-align: center;
+	@include font-size(10,yes,10);
+	font-weight: 100;
 	line-height: 1;
 	letter-spacing: -3px;
 
@@ -93,7 +97,7 @@ span + .entry-title {
 	}
 
 	@include media($medium) {
-		@include font-size(52,yes,54);
+		@include font-size(12,yes,14);
 	}
 
 	@include media($large) {
@@ -188,22 +192,59 @@ span + .entry-title {
 /* main content block */
 
 .entry-content {
-	@include span-columns(12);
-        font: 0.9em/1.692307em 'Bitter', Georgia, 'Times New Roman', Times, serif;
-        color: #555;
-        float: left;
-width: 100%;
-margin: 0 0 20px 0;
-padding: 0 0 5px 0;
+        /*font: 0.9em/1.692307em 'Bitter', Georgia, 'Times New Roman', Times, serif;*/
 
-font-size: 1em;
+  font-family: 'PT Serif', serif;
+    /*font-family: 'Crimson Text', serif;*/
+		font-size: 200px;
+		margin: 0;
+line-height: 1.5em;
+
+
+        /*color: #555;*/
+        float: left;
+
+width: 100%;
+margin: 10px 10 20px 10;
+padding: 10px 0 5px 0;
+
 	p:first-child {
 		margin-top: 0;
 	}
 
-	@include media($large) {
-		@include span-columns(9.5);
+
+	/* nice link underlines */
+  p > a,
+	li > a {
+		/*border-bottom: 1px dotted lighten($link-color, 50);*/
+                 color: #4e2a8e;
+                 /*text-decoration: underline;*/
+		/*&:hover {
+			border-bottom-style: solid;
+		}*/
 	}
+}
+
+.entry-content2 {
+        font: 0.9em/1.692307em 'Bitter', Georgia, 'Times New Roman', Times, serif;
+
+  /*font-family: 'PT Serif', serif;*/
+    /*font-family: 'Crimson Text', serif;*/
+		font-size: 18px;
+		margin: 0;
+
+
+        /*color: #555;*/
+        float: left;
+
+width: 100%;
+margin: 10px 10 20px 10;
+padding: 5px 0 1px 0;
+
+	p:first-child {
+		margin-top: 0;
+	}
+
 
 	/* nice link underlines */
   p > a,

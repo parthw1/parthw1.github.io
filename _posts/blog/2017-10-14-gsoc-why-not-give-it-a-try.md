@@ -30,4 +30,3 @@ People usually wait till their sophomre year to participate into GSOC, but I thi
 **Step 7:**Now you are familiar with the working of open source. Start working on an idea for the development of org with the developers and come up with a nice proposal, get it reviewed from your mentors and submit it.
 
 **Step 8:**Get selected for GSOC….!!!
-
