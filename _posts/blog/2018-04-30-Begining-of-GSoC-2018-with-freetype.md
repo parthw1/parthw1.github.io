@@ -5,7 +5,7 @@ modified:
 categories: blog
 comments: true
 excerpt:
-tags: []
+tags: [GSoC, intern, guide]
 image:
   feature:
 date: 2018-04-30T00:00:00-00:00
@@ -17,4 +17,4 @@ modified: 2018-04-30T00:00:00-00:00
 
 <p>Looking forward for an exciting summer.....!!</p>
 <p>My project details:</p>
-<img src="/images/gsoc_project_details.png" alt="Project details" > 
+<img src="/images/gsoc_project_details.png" alt="Project details" >

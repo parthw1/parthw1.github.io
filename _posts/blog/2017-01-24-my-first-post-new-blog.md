@@ -5,13 +5,11 @@ modified:
 categories: blog
 comments: true
 excerpt:
-tags: []
+tags: [new, blog]
 image:
   feature:
 date: 2017-01-24T00:00:00-00:00
-modified: 2017-09-22T14:17:05-04:00
 ---
-
 Hi reader..!
 This is my first post on this blog. I created this blog to contribute my work with others and get connected with other people. I like surfing the Internet and explore new ideas. I also love to contribute to Open Source Software Development and learn more about different projects.
 

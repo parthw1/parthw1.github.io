@@ -42,15 +42,16 @@
 /* tag listing in page header */
 
 .entry-tags {
-	margin: 2em 0 0;
+	/*margin: 0 0 0;*/
   padding: 0;
-	text-transform: uppercase;
-	@include font-size(16);
+	/*text-transform: uppercase;*/
+	text-align: center;
+	@include font-size(22);
 	font-weight: 600;
 
   a {
     color: $text-color;
-    padding: 0 5px;
+    /*padding: 0 5px;*/
   }
 
   li {
@@ -67,9 +68,7 @@
         content: "";
       }
 
-      a {
-        padding-left: 0;
-      }
+
     }
   }
 }
@@ -89,8 +88,8 @@ span + .entry-title {
 	@include font-size(10,yes,10);
 	font-weight: 100;
 	line-height: 1;
-	letter-spacing: -3px;
-
+	letter-spacing: -2px;
+  margin: -10px;
 	a {
 		color: $black;
 		text-decoration: underline;
@@ -196,20 +195,17 @@ span + .entry-title {
 
   font-family: 'PT Serif', serif;
     /*font-family: 'Crimson Text', serif;*/
-		font-size: 200px;
 		margin: 0;
-line-height: 1.5em;
-
-
+    line-height: 1.5;
         /*color: #555;*/
         float: left;
-
-width: 100%;
-margin: 10px 10 20px 10;
-padding: 10px 0 5px 0;
+				text-align: justify;
+		width: 100%;
+    margin: 5px 10 20px 10;
+    padding: 5px 0 10px 0;
 
 	p:first-child {
-		margin-top: 0;
+		margin-top: 6px;
 	}
 
 

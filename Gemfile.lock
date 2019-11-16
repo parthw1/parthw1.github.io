@@ -247,7 +247,7 @@ PLATFORMS
 DEPENDENCIES
   ffi (>= 1.9.24)
   github-pages
-  jekyll (>= 3.6.3)
+  jekyll
   jekyll-compose
   jekyll-feed
   jekyll-gist
