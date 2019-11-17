@@ -5,7 +5,7 @@ modified:
 categories: blog
 comments: true
 excerpt:
-tags: [new, blog]
+tags: [firstpost]
 image:
   feature:
 date: 2017-01-24T00:00:00-00:00

@@ -5,7 +5,7 @@ modified:
 categories: blog
 comments: true
 excerpt:
-tags: [GSoC, intern, guide]
+tags: [GSoC, intern, FreeType]
 image:
   feature:
 date: 2018-12-06T00:00:00-00:00

@@ -5,7 +5,7 @@ modified:
 categories: blog
 comments: true
 excerpt:
-tags: [GSoC, inter, guide]
+tags: [GSoC, intern, guide]
 image:
   feature:
 date: 2017-10-14T00:00:00-00:00
