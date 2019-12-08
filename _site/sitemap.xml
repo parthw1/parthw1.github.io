@@ -21,10 +21,6 @@
 <lastmod>2018-12-06T05:30:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/New-posts-coming-soon/</loc>
-<lastmod>2019-11-14T05:30:00+05:30</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/assets/Meta-data/2014-08-08-hello-world/</loc>
 </url>
 <url>
@@ -32,6 +28,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/Meta-data/2018-03-30-My-journey-to-Open-Source/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/docs/2019-11-06-New-posts-coming-soon/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/my-projects/</loc>

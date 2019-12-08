@@ -25,6 +25,7 @@
         {% else %}
           <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
         {% endif %}
+        <br>
           <time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
           {% if page.timeread%}
           <h1 class="entry-tags">{{ page.timeread }} read</h1>
