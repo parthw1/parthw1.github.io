@@ -4,7 +4,7 @@ title: "Begining of GSoC 2018 with FreeType"
 modified:
 categories: blog
 comments: true
-excerpt:
+excerpt: "When I started looking through the selected organisations for GSoC 2018, I came accross FreeType. And always being motivated to work on the middleware.. "
 tags: [GSoC, intern, guide]
 image:
   feature:

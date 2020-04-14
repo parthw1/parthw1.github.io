@@ -4,7 +4,7 @@ title: "My First Post"
 modified:
 categories: blog
 comments: true
-excerpt:
+excerpt: "This is my first post on this blog. I created this blog to contribute my work with others and get connected with other people..."
 tags: [firstpost]
 image:
   feature:

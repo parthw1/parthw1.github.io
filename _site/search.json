@@ -4,7 +4,7 @@
     {
       "title"			: "Making my GSoC 2018 proposal public",
       "link"			: "http://localhost:4000/blog/Making-my-GSoC-2018-proposal-public/",
-      "excerpt"		: "Many people have asked me, how to write a good GSoC proposal. I have decided to make my proposal to FreeType for GSoC 2018 public here so that it can be helpful for others and people can gather tips and hints about writing a proposal."
+      "excerpt"		: "Many people have asked me, how to write a good GSoC proposal. I have decided…"
     }
   
 
@@ -12,7 +12,7 @@
     ,{
       "title"			: "Commmunity Bonding Period with FreeType",
       "link"			: "http://localhost:4000/blog/community-bonding-freetype/",
-      "excerpt"		: "My proposal was selected for GSoC 2018 on 23 April. My project is &quot;Integrating VFlib&#39;s TeX format drivers into FreeType&quot;. FreeType currently supports multiple font formats like truetype, opentype, bdf, pcf. My project aims to increase the supported formats by providing drivers for TeX&#39;s font formats (viz. GF, TFM, PK, and VF). Now, VFlib is a font library (no longer under development) which has a mature support for the above mentioned TeX font formats. I will be using the existing modules in VFlib as a reference to develop new modules for freetype on the lines of existing bitmap drivers already available in FreeType like BDF, PCF and WINFNTS.In the community bonding period I got acquainted with the workflow of the FreeType commuity. FreeType uses savannah to host their code for development and git as version control system. I initially set up my development environment, I was given the access to the savannah repository of FreeType. It was great fun to learn about savannah. In the process I had to learn about many advance git commands which I had not known earlier which were very useful and greatly simplified the development process. It was quite fascinating to know about how different modules can be compiled seperately from such a big library.Later I went through the source code of FreeType and learnt a lot of insights from the codebase and got my doubts cleared in the process. The community was very helpful in clearing my doubts. Specifically I learnt more about the current available drivers of BDF and PCF font formats and the working of their drivers. These drivers have many auxillary functions which facilitate the main functions, the object classes are defined very specific to the file format. I also learnt about the file structure followed by the drivers which simplifies and properly segregates the working code of the driver. This gave me an idea about how the new drivers can be designed more effectively.I am currently going through VFlib&#39;s codebase understanding some small intricacies of the drivers and subsequently started working on the code of GF Driver and will discuss about its working in the next blog post. Till then, Good Bye!!"
+      "excerpt"		: "My proposal was selected for GSoC 2018 on 23 April. My project is Integrating VFlib’s TeX format drivers into FreeType…"
     }
   
 
@@ -20,7 +20,7 @@
     ,{
       "title"			: "Begining of GSoC 2018 with FreeType",
       "link"			: "http://localhost:4000/blog/Begining-of-GSoC-2018-with-freetype/",
-      "excerpt"		: "When I started looking through the selected organisations for GSoC 2018, I came accross FreeType. And always being motivated to work on the middleware, I knew that this was the org I will be working for😀. I started reading through the documentation and started learning more about it. I introduced myself to the community on their mailing list. The community was very welcoming. I had many doubts while learning more about the project and the FreeType community was very helpful. FreeType had many prospective projects enlisted on their website for GSoC. I started to work on prospects of doing those projects, eventually I selected &quot;Integrating VFlib&#39;s TeX format drivers into FreeType&quot; as my project. After a lot of discussions with my mentors I was eventually able to prepare a draft proposal for the project, and after getting it reviewed from my mentor I finally submitted my final proposal for GSoC.The results were to be announced on April 23. Around 9.30 PM I opened up my PC and started looking for the results. At around 9.58 PM I was able to finally see my dashboard on the GSoC website. It showed &#39;Active&#39; in front of my project, I was unable to figure out what was that, later I opened the selected projects on the GSoC website and under FreeType I finally saw my name enlisted under Selected Projects and then yeah! I had made it, I was very happy about the selection. I called my parents and my brother to tell them about the result and they were very happy about it. It was very overwhelming and exciting experience. I would be looking forward to work as good as possible this summer for FreeType under my mentors Werner Lemberg, Suzuki toshiya and Alexei Podtelezhnikov. Thanks to my mentors and org to consider me worthy for their selection list.😀"
+      "excerpt"		: "When I started looking through the selected organisations for GSoC 2018, I came accross FreeType. And always being motivated to work on the middleware.."
     }
   
 
@@ -28,7 +28,7 @@
     ,{
       "title"			: "GSoC: Why not give it a try?",
       "link"			: "http://localhost:4000/blog/gsoc-why-not-give-a-try/",
-      "excerpt"		: "GSoC or Goole Summer Of Code one of the most prestigious opportunity to get involved into open source sofware development and also get a paid internship ;)People usually wait till their sophomre year to participate into GSOC, but I think that one should atleast try to participate and give it a try if you know the basics of programming which one learns in his/her freshman year itself as it would help in getting acquainted with open source and an opportunity to learn a lot of new things."
+      "excerpt"		: "GSoC or Goole Summer Of Code one of the most prestigious opportunity to get involved into open source sofware development and also get a paid internship…"
     }
   
 
@@ -36,7 +36,7 @@
     ,{
       "title"			: "My First Post",
       "link"			: "http://localhost:4000/blog/my-first-post-new-blog/",
-      "excerpt"		: "Hi reader..!This is my first post on this blog. I created this blog to contribute my work with others and get connected with other people. I like surfing the Internet and explore new ideas. I also love to contribute to Open Source Software Development and learn more about different projects."
+      "excerpt"		: "This is my first post on this blog. I created this blog to contribute my work with others and get connected with other people…"
     }
   
 

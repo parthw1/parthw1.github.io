@@ -1,16 +1,16 @@
 
 # Site navigation links
 
-- title: About
+- title: 🏠Home
   url: /index.html
 
-- title: Blog
+- title: 📝Blog
   url: /blog/
 
-- title: My Projects
-  url: https://github.com/parthw1
+#- title: My Projects
+ # url: https://github.com/parthw1
 
-- title: Resume
+- title: 📄Resume
   url: /assets/docs/parth_resume.pdf
   
 #- title: GITHUB

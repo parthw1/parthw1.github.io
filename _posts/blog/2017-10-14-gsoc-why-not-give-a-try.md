@@ -4,7 +4,7 @@ title: "GSoC: Why not give it a try?"
 modified:
 categories: blog
 comments: true
-excerpt:
+excerpt: "GSoC or Goole Summer Of Code one of the most prestigious opportunity to get involved into open source sofware development and also get a paid internship..."
 tags: [GSoC, intern, guide]
 image:
   feature:

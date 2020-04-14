@@ -6,21 +6,13 @@
 <head>
 <meta charset="utf-8">
 <title>Commmunity Bonding Period with FreeType &#8211; Parth Wazurkar</title>
-<meta name="description" content="My proposal was selected for GSoC 2018 on 23 April. My project is "Integrating VFlib's TeX format drivers into FreeType". FreeType currently supports multiple font formats like truetype, opentype, bdf, pcf. My project aims to increase the supported formats by providing drivers for TeX's font formats (viz. GF, TFM, PK, and VF). Now, VFlib is a font library (no longer under development) which has a mature support for the above mentioned TeX font formats. I will be using the existing modules in VFlib as a reference to develop new modules for freetype on the lines of existing bitmap drivers already available in FreeType like BDF, PCF and WINFNTS.
-In the community bonding period I got acquainted with the workflow of the FreeType commuity. FreeType uses savannah to host their code for development and git as version control system. I initially set up my development environment, I was given the access to the savannah repository of FreeType. It was great fun to learn about savannah. In the process I had to learn about many advance git commands which I had not known earlier which were very useful and greatly simplified the development process. It was quite fascinating to know about how different modules can be compiled seperately from such a big library.
-Later I went through the source code of FreeType and learnt a lot of insights from the codebase and got my doubts cleared in the process. The community was very helpful in clearing my doubts. Specifically I learnt more about the current available drivers of BDF and PCF font formats and the working of their drivers. These drivers have many auxillary functions which facilitate the main functions, the object classes are defined very specific to the file format. I also learnt about the file structure followed by the drivers which simplifies and properly segregates the working code of the driver. This gave me an idea about how the new drivers can be designed more effectively.
-I am currently going through VFlib's codebase understanding some small intricacies of the drivers and subsequently started working on the code of GF Driver and will discuss about its working in the next blog post. Till then, Good Bye!!
-">
+<meta name="description" content="My proposal was selected for GSoC 2018 on 23 April. My project is Integrating VFlib's TeX format drivers into FreeType...">
 <meta name="keywords" content="GSoC, intern, FreeType">
 
 
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="Commmunity Bonding Period with FreeType">
-<meta name="twitter:description" content="My proposal was selected for GSoC 2018 on 23 April. My project is "Integrating VFlib's TeX format drivers into FreeType". FreeType currently supports multiple font formats like truetype, opentype, bdf, pcf. My project aims to increase the supported formats by providing drivers for TeX's font formats (viz. GF, TFM, PK, and VF). Now, VFlib is a font library (no longer under development) which has a mature support for the above mentioned TeX font formats. I will be using the existing modules in VFlib as a reference to develop new modules for freetype on the lines of existing bitmap drivers already available in FreeType like BDF, PCF and WINFNTS.
-In the community bonding period I got acquainted with the workflow of the FreeType commuity. FreeType uses savannah to host their code for development and git as version control system. I initially set up my development environment, I was given the access to the savannah repository of FreeType. It was great fun to learn about savannah. In the process I had to learn about many advance git commands which I had not known earlier which were very useful and greatly simplified the development process. It was quite fascinating to know about how different modules can be compiled seperately from such a big library.
-Later I went through the source code of FreeType and learnt a lot of insights from the codebase and got my doubts cleared in the process. The community was very helpful in clearing my doubts. Specifically I learnt more about the current available drivers of BDF and PCF font formats and the working of their drivers. These drivers have many auxillary functions which facilitate the main functions, the object classes are defined very specific to the file format. I also learnt about the file structure followed by the drivers which simplifies and properly segregates the working code of the driver. This gave me an idea about how the new drivers can be designed more effectively.
-I am currently going through VFlib's codebase understanding some small intricacies of the drivers and subsequently started working on the code of GF Driver and will discuss about its working in the next blog post. Till then, Good Bye!!
-">
+<meta name="twitter:description" content="My proposal was selected for GSoC 2018 on 23 April. My project is Integrating VFlib's TeX format drivers into FreeType...">
 <meta name="twitter:site" content="@parthw1">
 <meta name="twitter:creator" content="@parthw1">
 
@@ -31,11 +23,7 @@ I am currently going through VFlib's codebase understanding some small intricaci
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Commmunity Bonding Period with FreeType">
-<meta property="og:description" content="My proposal was selected for GSoC 2018 on 23 April. My project is "Integrating VFlib's TeX format drivers into FreeType". FreeType currently supports multiple font formats like truetype, opentype, bdf, pcf. My project aims to increase the supported formats by providing drivers for TeX's font formats (viz. GF, TFM, PK, and VF). Now, VFlib is a font library (no longer under development) which has a mature support for the above mentioned TeX font formats. I will be using the existing modules in VFlib as a reference to develop new modules for freetype on the lines of existing bitmap drivers already available in FreeType like BDF, PCF and WINFNTS.
-In the community bonding period I got acquainted with the workflow of the FreeType commuity. FreeType uses savannah to host their code for development and git as version control system. I initially set up my development environment, I was given the access to the savannah repository of FreeType. It was great fun to learn about savannah. In the process I had to learn about many advance git commands which I had not known earlier which were very useful and greatly simplified the development process. It was quite fascinating to know about how different modules can be compiled seperately from such a big library.
-Later I went through the source code of FreeType and learnt a lot of insights from the codebase and got my doubts cleared in the process. The community was very helpful in clearing my doubts. Specifically I learnt more about the current available drivers of BDF and PCF font formats and the working of their drivers. These drivers have many auxillary functions which facilitate the main functions, the object classes are defined very specific to the file format. I also learnt about the file structure followed by the drivers which simplifies and properly segregates the working code of the driver. This gave me an idea about how the new drivers can be designed more effectively.
-I am currently going through VFlib's codebase understanding some small intricacies of the drivers and subsequently started working on the code of GF Driver and will discuss about its working in the next blog post. Till then, Good Bye!!
-">
+<meta property="og:description" content="My proposal was selected for GSoC 2018 on 23 April. My project is Integrating VFlib's TeX format drivers into FreeType...">
 <meta property="og:url" content="http://localhost:4000/blog/community-bonding-freetype/">
 <meta property="og:site_name" content="Parth Wazurkar">
 
@@ -96,20 +84,17 @@ I am currently going through VFlib's codebase understanding some small intricaci
 <body id="post">
 
 <div class="navigation-wrapper">
-	<nav role="navigation" id="site-nav" class="animated drop">
+	<nav role="navigation" id="site-nav" >
 	    <ul>
       
 		    
-		    <li><a href="http://localhost:4000/index.html" >About</a></li>
+		    <li><a href="http://localhost:4000/index.html" >🏠Home</a></li>
 		  
 		    
-		    <li><a href="http://localhost:4000/blog/" >Blog</a></li>
+		    <li><a href="http://localhost:4000/blog/" >📝Blog</a></li>
 		  
 		    
-		    <li><a href="https://github.com/parthw1" target="_blank">My Projects</a></li>
-		  
-		    
-		    <li><a href="http://localhost:4000/assets/docs/parth_resume.pdf" >Resume</a></li>
+		    <li><a href="http://localhost:4000/assets/docs/parth_resume.pdf" >📄Resume</a></li>
 		  
 	    </ul>
 	</nav>
@@ -140,14 +125,14 @@ I am currently going through VFlib's codebase understanding some small intricaci
 
       <header class="entry-header">
         
-          <h1 class="entry-title">Commmunity Bonding Period with FreeType</h1>
+          <h1 class="entry-title2">Commmunity Bonding Period with FreeType</h1>
         
         <br>
-          <time datetime="2018-05-15T05:30:00+05:30"><i class="fa fa-calendar-o"></i> May 15, 2018</time></span>
-          
+         <span class="entry-date"> <time datetime="2018-05-15T05:30:00+05:30">May 15, 2018</time></span>
+          <!-- 
           <ul class="entry-tags">
             <li><a href="http://localhost:4000/tags/#GSoC" title="Pages tagged GSoC">#GSoC</a></li><li><a href="http://localhost:4000/tags/#intern" title="Pages tagged intern">#intern</a></li><li><a href="http://localhost:4000/tags/#FreeType" title="Pages tagged FreeType">#FreeType</a></li>
-          </ul>
+          </ul> -->
       </header>
 
 
@@ -173,10 +158,10 @@ I am currently going through VFlib's codebase understanding some small intricaci
 
 
       <div class="entry-content">
-        <p align="justify">My proposal was selected for GSoC 2018 on 23 April. My project is "Integrating VFlib's TeX format drivers into FreeType". FreeType currently supports multiple font formats like truetype, opentype, bdf, pcf. My project aims to increase the supported formats by providing drivers for TeX's font formats (viz. GF, TFM, PK, and VF). Now, VFlib is a font library (no longer under development) which has a mature support for the above mentioned TeX font formats. I will be using the existing modules in VFlib as a reference to develop new modules for freetype on the lines of existing bitmap drivers already available in FreeType like BDF, PCF and WINFNTS.</p>
-<p align="justify">In the community bonding period I got acquainted with the workflow of the FreeType commuity. FreeType uses savannah to host their code for development and git as version control system. I initially set up my development environment, I was given the access to the savannah repository of FreeType. It was great fun to learn about savannah. In the process I had to learn about many advance git commands which I had not known earlier which were very useful and greatly simplified the development process. It was quite fascinating to know about how different modules can be compiled seperately from such a big library.</p>
-<p align="justify">Later I went through the source code of FreeType and learnt a lot of insights from the codebase and got my doubts cleared in the process. The community was very helpful in clearing my doubts. Specifically I learnt more about the current available drivers of BDF and PCF font formats and the working of their drivers. These drivers have many auxillary functions which facilitate the main functions, the object classes are defined very specific to the file format. I also learnt about the file structure followed by the drivers which simplifies and properly segregates the working code of the driver. This gave me an idea about how the new drivers can be designed more effectively.</p>
-<p align="justify">I am currently going through VFlib's codebase understanding some small intricacies of the drivers and subsequently started working on the code of GF Driver and will discuss about its working in the next blog post. Till then, Good Bye!!</p>
+        <p>My proposal was selected for GSoC 2018 on 23 April. My project is "Integrating VFlib's TeX format drivers into FreeType". FreeType currently supports multiple font formats like truetype, opentype, bdf, pcf. My project aims to increase the supported formats by providing drivers for TeX's font formats (viz. GF, TFM, PK, and VF). Now, VFlib is a font library (no longer under development) which has a mature support for the above mentioned TeX font formats. I will be using the existing modules in VFlib as a reference to develop new modules for freetype on the lines of existing bitmap drivers already available in FreeType like BDF, PCF and WINFNTS.</p>
+<p>In the community bonding period I got acquainted with the workflow of the FreeType commuity. FreeType uses savannah to host their code for development and git as version control system. I initially set up my development environment, I was given the access to the savannah repository of FreeType. It was great fun to learn about savannah. In the process I had to learn about many advance git commands which I had not known earlier which were very useful and greatly simplified the development process. It was quite fascinating to know about how different modules can be compiled seperately from such a big library.</p>
+<p>Later I went through the source code of FreeType and learnt a lot of insights from the codebase and got my doubts cleared in the process. The community was very helpful in clearing my doubts. Specifically I learnt more about the current available drivers of BDF and PCF font formats and the working of their drivers. These drivers have many auxillary functions which facilitate the main functions, the object classes are defined very specific to the file format. I also learnt about the file structure followed by the drivers which simplifies and properly segregates the working code of the driver. This gave me an idea about how the new drivers can be designed more effectively.</p>
+<p>I am currently going through VFlib's codebase understanding some small intricacies of the drivers and subsequently started working on the code of GF Driver and will discuss about its working in the next blog post. Till then, Good Bye!!</p>
 
       </div><!-- /.entry-content -->
        <div id="disqus_thread"></div><!-- /#disqus_thread -->
@@ -214,7 +199,7 @@ I am currently going through VFlib's codebase understanding some small intricaci
   <footer role="contentinfo" class="entry-wrapper">
     
 
-<span>&copy; 2019 Parth Wazurkar. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.</span>
+<span>&copy; 2020 Parth Wazurkar. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.</span>
 <div class="social-icons">
 	<a href="https://twitter.com/parthw1" title="Parth Wazurkar on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
 	<a href="https://facebook.com/parth.wazurkar" title="Parth Wazurkar on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
