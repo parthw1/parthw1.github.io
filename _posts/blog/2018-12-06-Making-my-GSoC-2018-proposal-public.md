@@ -5,7 +5,7 @@ modified:
 categories: blog
 comments: true
 excerpt: "Many people have asked me, how to write a good GSoC proposal. I have decided..."
-tags: [GSoC, intern, FreeType]
+tags: [GSoC, intern]
 image:
   feature:
 date: 2018-12-06T00:00:00-00:00
