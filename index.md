@@ -10,6 +10,5 @@ Previously in summer 2018 I got selected as a <a href="https://summerofcode.with
 
 I welcome the chance to connect with you and talk more about complex problems and their solutions. If you are recruiter, and think that you have a project that I won't be able to say no to, here's my <a href="/assets/docs/parth_resume.pdf" target="_blank"> Resume</a>.
 
-<a href="https://www.linkedin.com/in/parthw1/" target="_blank" style="border-bottom: .5px dotted;">Linkedin</a><br>
-<a href="https://www.github.com/parthw1/" target="_blank" style="border-bottom: .5px dotted;">Github</a>
+Reach out to me on <a href="https://www.linkedin.com/in/parthw1/" target="_blank" style="border-bottom: .5px dotted;">Linkedin</a><br>. Also check out my projects on <a href="https://www.github.com/parthw1/" target="_blank" style="border-bottom: .5px dotted;">Github</a>.
 
