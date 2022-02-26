@@ -7,6 +7,6 @@ gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem "jekyll-feed"
 gem 'jekyll-compose', group: [:jekyll_plugins]
-gem 'nokogiri', '~> 1.11'
+gem 'nokogiri', '~> 1.13'
 gem "ffi", ">= 1.9.24"
 
