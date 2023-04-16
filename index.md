@@ -2,7 +2,7 @@
 layout: homepage
 excerpt: "About me."
 ---
-I am Parth, currently working as an Associate at Alphagrep Securities, as a low latency software developer in the trading systems team. My work revolves around developing software for trading at different exchanges around the globe.
+I am Parth, a systems enthusiast currently working as an Associate at Alphagrep Securities, as a low latency software developer. I have a keen interest in developing robust systems for high frequency trading and have previously worked on different exchanges on both the market data and order entry side of trading software development.
 
 As a software Developer, I’m inspired by building software stack and have been influenced by algorithms in a big way, especially their applications in solving real-world problems.
 
